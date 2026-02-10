@@ -1,9 +1,11 @@
 <img width="1280" height="800" alt="CAF" src="https://github.com/user-attachments/assets/2fa20cef-0c1f-4695-a96d-949e629e13c3" />
+
 # SUPER CRYPTARK: ARMAGEDDON
-### Maximum Rearmed Extreme
+**Maximum Rearmed Extreme**
 
 
 <img width="676" height="576" alt="Screenshot 2017-10-28 17 18 49" src="https://github.com/user-attachments/assets/67782a41-b523-403d-a146-22f6c9093145" />
+
 ## About
 Super Cryptark Armageddon is a mod for Cryptark, a PC game made by Alientrap Games.
 
@@ -15,6 +17,7 @@ This mod shifts the focus of the game less about tight frugal survival and more 
 
 
 <img width="1280" height="800" alt="Screenshot 2017-11-02 00 21 45" src="https://github.com/user-attachments/assets/703022bf-d657-4096-8067-cee7b4d70ee2" />
+
 ## Install
 1. Go to the game's Cryptark/Content/GameObjects folder and DELETE the 'Weapons', 'Items' and 'Projectiles' folders within it.
 2. Copy/move the mod's 'Content' folder into your Cryptark game folder. Overwrite everything.
@@ -29,6 +32,7 @@ If you wish to remove the mod, just reinstall the game. Make a copy/backup of yo
 
 
 <img width="788" height="466" alt="Screenshot 2017-10-30 13 08 51" src="https://github.com/user-attachments/assets/6952ea86-9a30-4432-b8ab-a8591100bb30" />
+
 ## Mod Philosophy
 The intention of this mod is to provide a true power fantasy, not to make the game harder, even if it is a bit crazier now.
 
