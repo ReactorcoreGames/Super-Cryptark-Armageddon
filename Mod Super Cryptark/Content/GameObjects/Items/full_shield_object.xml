@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+<GameObjectClass>
+  <Type>SHIELD</Type>
+  <SpineAnimation>full_shield</SpineAnimation>
+  <SpineAnimationScale>0.75</SpineAnimationScale>
+
+  <ShieldFollowBone>root</ShieldFollowBone>
+  
+  <!--
+  <FiringLoop>Combat_M_Shield_Loop</FiringLoop>
+  <StartFiringSound>Combat_M_Shield_On</StartFiringSound>
+  <ReleaseFiringSound>Combat_M_Shield_Off</ReleaseFiringSound>
+  -->
+  <AmmoAsPercent>true</AmmoAsPercent>
+  <RefillRate>1</RefillRate>
+  <AmmoBoxQuantity>10</AmmoBoxQuantity>
+  <NextRefillTime>5</NextRefillTime>
+  
+  <Health>10</Health>
+  <!-- <Solid>true</Solid> -->
+  <!-- <Static>true</Static> -->
+  <!-- <BoundingBoxBody>base_box</BoundingBoxBody> -->
+  <CharacterCollide>false</CharacterCollide>
+  <!-- <GibOnDeath>true</GibOnDeath> -->
+  
+  <DisableAfter>300</DisableAfter>
+  <FullShield>true</FullShield>
+  <SetLayer>FULLBRIGHT</SetLayer>
+  
+  <Light>
+    <Color>
+      <X>0</X>
+      <Y>0.4</Y>
+      <Z>1</Z>
+      <W>1</W>
+    </Color>
+    <Radius>0</Radius>
+    <MaxRadius>240</MaxRadius>
+    <RadiusModifier>80</RadiusModifier>
+    <Strength>4</Strength>
+    <IsEnabled>false</IsEnabled>
+  </Light>
+  <Solid>true</Solid>
+  <EclipseBody>true</EclipseBody>
+  <Width>6</Width>
+  <Height>6</Height>
+</GameObjectClass>

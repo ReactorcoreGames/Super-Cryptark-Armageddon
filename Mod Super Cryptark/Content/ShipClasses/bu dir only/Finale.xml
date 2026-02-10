@@ -1,0 +1,134 @@
+﻿<?xml version="1.0"?>
+<ShipClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Name>Not Canon</Name>
+  <Description>This mission and ending is false. I do not accept it as canon. The men in suits are cool. If possible, I'll try to replace the ending cutscene and turn the level itself to represent the "final core vault of the cryptark". It would be the last bonus task recieved from the employer, to attempt to crack the most valuable sealed vault in the heart of the cryptark, filled with the toughest of enemies, with the biggest bonus paycheck and special offer at the end.</Description>
+
+  <LockDoorsCloseToCore>4</LockDoorsCloseToCore>
+  <DoorLockPercentage>0.3</DoorLockPercentage>
+  <DoorBreakablePercentage>0.3</DoorBreakablePercentage>
+  
+  <StarFieldMap>starfield06</StarFieldMap>
+  
+  <MusicTracks>
+    <string>6</string>
+  </MusicTracks>
+
+  <ShipColor>
+    <R>175</R>
+    <G>80</G>
+    <B>250</B>
+    <A>255</A>
+  </ShipColor>
+  <LightSchemes>
+	<string>dir_automated01</string>
+	<string>dir_clinical</string>
+	<string>dir_cloaker01</string>
+	<string>dir_cryptark01</string>
+	<string>dir_cryptark02</string>
+	<string>dir_factory_brown</string>
+	<string>dir_factory01</string>
+	<string>dir_factory02</string>
+	<string>dir_factory03</string>
+	<string>dir_factory04</string>
+	<string>dir_gunmetal</string>
+	<string>dir_hazard01</string>
+	<string>dir_heavy01</string>
+	<string>dir_heavy02</string>
+	<string>dir_heavy03</string>
+	<string>dir_heavy04</string>
+	<string>dir_inferno</string>
+	<string>dir_miner01</string>
+	<string>dir_miner02</string>
+	<string>dir_miner03</string>
+	<string>dir_miner04</string>
+	<string>dir_minty</string>
+	<string>dir_nightvision</string>
+	<string>dir_nuke01</string>
+	<string>dir_nuke02</string>
+	<string>dir_olive_blue</string>
+	<string>dir_science01</string>
+	<string>dir_science02</string>
+	<string>dir_scout01</string>
+	<string>dir_scout02</string>
+	<string>dir_scrapyard01</string>
+	<string>dir_scrapyard02</string>
+	<string>dir_sentry01</string>
+	<string>dir_sentry02</string>
+	<string>dir_sentry03</string>
+	<string>dir_sentry04</string>
+	<string>dir_swarm01</string>
+	<string>dir_swarm02</string>
+	<string>dir_swarm03</string>
+	<string>dir_swarm04</string>
+	<string>dir_toxic</string>
+	<string>dir_warship01</string>
+	<string>dir_warship02</string>
+	<string>dir_warship03</string>
+	<string>dir_warship04</string>
+	<string>dir_watermelon</string>
+	<string>dir_wine_pink</string>
+  </LightSchemes>
+
+  <IncludedSystems>
+  </IncludedSystems>
+
+  <SpawnTypes>
+    <SpawnType>
+      <Classfile>Blacksuit</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>3</Amount>
+      <MinDistanceToAnotherOne>100</MinDistanceToAnotherOne>
+    </SpawnType>  
+    <SpawnType>
+      <Classfile>Pirate</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>30</Amount>
+      <!--<MinDistanceToAnotherOne>20</MinDistanceToAnotherOne>-->
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Pirate_2</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>30</Amount>
+      <!--<MinDistanceToAnotherOne>20</MinDistanceToAnotherOne>-->
+    </SpawnType>
+    <SpawnType>
+      <Classfile>Pirate_3</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>30</Amount>
+      <!--<MinDistanceToAnotherOne>20</MinDistanceToAnotherOne>-->
+    </SpawnType>
+    
+
+
+    <SpawnType>
+      <Classfile>Doodads\doodad</Classfile>
+      <LocationType>ON_WALL</LocationType>
+      <Amount>40</Amount>
+      <Object>true</Object>
+    </SpawnType>
+    
+    <SpawnType>
+      <Classfile>Hazards\mule_skiff</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>12</Amount>
+      <Object>true</Object>
+      <MinDistanceToAnotherOne>50</MinDistanceToAnotherOne>
+    </SpawnType>
+    
+    <SpawnType>
+      <Classfile>HelperDronePirate</Classfile>
+      <LocationType>ROOM</LocationType>
+      <Amount>8</Amount>
+      <MinDistanceToAnotherOne>50</MinDistanceToAnotherOne>
+    </SpawnType>
+    
+    <SpawnType>
+      <Classfile>Doodads\lightbulb</Classfile>
+      <LocationType>ON_WALL</LocationType>
+      <Amount>40</Amount>
+      <Object>true</Object>
+    </SpawnType>
+  </SpawnTypes>
+
+</ShipClass>

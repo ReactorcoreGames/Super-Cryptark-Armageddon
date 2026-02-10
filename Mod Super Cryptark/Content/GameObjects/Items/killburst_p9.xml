@@ -1,0 +1,20 @@
+﻿<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>CON Kill Burst 9x</Displayname>
+  <ShortDisplayName>KILL9</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>A single use consumable device that sends away a lethal killburst, instantly damaging opponents and debris in the surrounding area. Not effective against systems. 9 uses.</ItemInfo>
+  <HudTextureName>tag_item_knockback</HudTextureName>
+
+  <Price>8</Price>
+  <TechChanceNumber>1</TechChanceNumber>
+  
+  <StartItemQuantity>9</StartItemQuantity>
+  <RateOfUse>1</RateOfUse>
+  
+  <ItemType>EmpBomb</ItemType>
+  <SpawnOnItemUse>Hazards\killburst</SpawnOnItemUse>
+  <UseInSpace>true</UseInSpace>
+  
+  <OnUseSound>Combat_ST_KnockBack</OnUseSound>
+</GameObjectClass>

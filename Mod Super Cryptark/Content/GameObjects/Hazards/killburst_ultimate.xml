@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" ?>
+<GameObjectClass>
+  <Type>SLOW_EXPLOSION</Type>
+  
+  <ExplosionGrowRate>20</ExplosionGrowRate>
+  <ExplosionMaxRadius>900</ExplosionMaxRadius>
+  <SlowExplosionDamageRate>0.2</SlowExplosionDamageRate>
+  <RemoveAfterStarted>3.4</RemoveAfterStarted>
+  <NoOffscreen>true</NoOffscreen>  
+  <ExplodeDamage>50</ExplodeDamage>
+  <ExplodeDamageObjectMultiply>3</ExplodeDamageObjectMultiply>
+  <UseSpatialSystem>false</UseSpatialSystem>
+  <DamageEnemies>true</DamageEnemies>
+  <DamageSystems>false</DamageSystems>
+  <DamagePlayer>false</DamagePlayer>
+  <DamageObjects>true</DamageObjects>
+
+  <OnAddSound>Combat_M_Rocket_Blast</OnAddSound>
+  <SpawnObjectOnAdd>Refractions\detpack_shockwave</SpawnObjectOnAdd>
+  <MeshEffects>
+    <string>green_explosion_2</string>
+    <string>slow_explosion_1</string>
+  </MeshEffects>
+
+  <Light>
+    <Type>Point</Type>
+    <Color>
+      <X>0.9</X>
+      <Y>0.9</Y>
+      <Z>0.9</Z>
+      <W>1</W>
+    </Color>
+    <SpecularColor>
+      <X>0.9</X>
+      <Y>0.9</Y>
+      <Z>0.9</Z>
+      <W>1</W>
+    </SpecularColor>
+    <Strength>3</Strength>
+    <Shininess>3</Shininess>
+    <Radius>900</Radius>
+  </Light>
+</GameObjectClass>

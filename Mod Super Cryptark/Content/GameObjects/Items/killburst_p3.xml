@@ -1,0 +1,20 @@
+﻿<GameObjectClass>
+  <Type>ITEM</Type>
+  <Displayname>CON Kill Burst 3x</Displayname>
+  <ShortDisplayName>KILL3</ShortDisplayName>
+  <LoadoutCategory>Item</LoadoutCategory>
+  <ItemInfo>A single use consumable device that sends away a lethal killburst, instantly damaging opponents and debris in the surrounding area. Not effective against systems. 3 uses.</ItemInfo>
+  <HudTextureName>tag_item_knockback</HudTextureName>
+
+  <Price>2</Price>
+  <TechChanceNumber>2</TechChanceNumber>
+  
+  <StartItemQuantity>3</StartItemQuantity>
+  <RateOfUse>1</RateOfUse>
+  
+  <ItemType>EmpBomb</ItemType>
+  <SpawnOnItemUse>Hazards\killburst</SpawnOnItemUse>
+  <UseInSpace>true</UseInSpace>
+  
+  <OnUseSound>Combat_ST_KnockBack</OnUseSound>
+</GameObjectClass>
